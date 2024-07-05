@@ -1,0 +1,33 @@
+{
+  "name": "wp-globals",
+  "version": "1.0.0",
+  "description": "WordPress global dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"todo: define tests\"",
+    "build": "./node_modules/typescript/bin/tsc",
+    "watch": "./node_modules/typescript/bin/tsc --watch"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awps/wp-globals.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "wordpress",
+    "globals",
+    "dependencies",
+    "wp"
+  ],
+  "author": "apws",
+  "license": "proprietary",
+  "homepage": "https://github.com/awps/wp-globals#readme"
+}
