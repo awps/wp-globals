@@ -1,6 +1,6 @@
 {
   "name": "wp-globals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WordPress global dependencies",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "wp"
   ],
   "author": "apws",
-  "license": "proprietary",
+  "license": "MIT",
   "homepage": "https://github.com/awps/wp-globals#readme"
 }
